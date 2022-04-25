@@ -726,7 +726,7 @@ label,
 a{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #3d3d3d!important;
 }
 
 
@@ -810,7 +810,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #3d3d3d!important;
 }
 
 .portfolio-thumb {
@@ -841,7 +841,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #2F3C65;
 }
 
 .bgc-atomic-tangerine {
@@ -854,7 +854,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #3d3d3d!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -904,6 +904,7 @@ h4 {
 .social{
     display: block;
     width: 500px;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -912,13 +913,24 @@ h4 {
     padding: 10px;
     text-decoration: none;
 }
+
+.social-link{
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
 .social-contact-reseau{
-    display: block;
-    width: 100px;
+    
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     text-decoration: none;
 }
+
+
 .text-keywords{
     font-size: 20px;
     width: 500px;
@@ -938,6 +950,7 @@ width: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .row-page-2{
@@ -955,6 +968,8 @@ width: auto;
     width: 50px;
     height: 50px;
 }
+
+
 .keywords > .text-keywords{
     color: rgba(255, 255, 255, .7);
 
@@ -1187,7 +1202,12 @@ width: auto;
         text-align: center;
     }
 
-    
+    .image-4{
+        width: 100%;
+    }
+    .image-3{
+        width: 100%;
+    }
 }
 
 @media (max-width: 425px) {
@@ -1253,6 +1273,7 @@ width: auto;
         margin: 0;
         padding: 0;
         list-style: none;
+        color: #3B3B3B;
     }
     /************************contact**************************/
     .col-sm-12 > .titre-principale-contact{
